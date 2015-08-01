@@ -37,6 +37,7 @@
       $slide.load(url, function(){
 
         $[deck]('.slide');
+        $slide.trigger('loaded');
       });
     }
   }
